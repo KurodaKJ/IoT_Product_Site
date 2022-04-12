@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
+:root {
+    --primary-color: rgb(250, 8, 129); 
+}
+
+* {
+    font-family: "Archivo";
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+    margin: 0;
+}
+
+section {
+    padding: 80px 100px;
+}
+
+/* ----- The navbar ----- */
+
+header {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 50px;
+    border-width: 0;
+}
+
+.home {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: #c5c5c5;
+}
+
+.devops {
+    color: var(--primary-color);
+}
+
+.solutions {
+    color: #1900ff;
+}
+
+nav {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover {
+    color: rgb(251, 129, 190);
+}
+
+/* ----- For the homepage ----- */
+
+.hero-section {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+
+.hero-section .hero {
+    padding: 100px 0px;
+}
+
+.hero-section .hero h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero-section .hero h4 {
+    font-size: 20px;
+    margin-top: 0%;
+}
+
+.hero-section .hero-image img {
+    width: 600px;
+    height: auto;
+    border-radius: 200px 50px;
+}
+
+.aboutus-section {
+    background: rgb(78, 40, 75);
+}
+
+.aboutus-section h2, .aboutus-section p {
+    color: white;
+}
+
+/* ----- For the overview page ----- */
+
+.introduction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+
+.introduction .intro {
+    padding: 100px 0px;
+}
+
+.introduction .intro-image img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 700px 700px;
+}
+
+.introduction .intro h1 {
+    font-size: 50px;
+    margin: 16px 0px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.introduction .intro h3 {
+    margin: 0px 0px;
+}
+
+.introduction .intro h4 {
+    font-size: 20px;
+}
+
+.features-section {
+    background: rgb(78, 40, 75);
+}
+
+.features-section .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 80px 16px;
+}
+
+.features-text h3, .features-text p {
+    color: white;
+}
+
+/* ----- For calculator page ----- */
+
+
+
+/* ----- For contact page ----- */
+
+.contact-section {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+}
+
+.contact-section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .contact-above {
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.material-icons {
+    float: left;
+}
+
+.contact-below form  {
+    max-width: 550px;
+    width: 90%;
+    background-color: white;
+    margin-bottom: 10%;
+    padding: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+input.contact-submit[type="submit"] {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 200;
+    background: var(--primary-color);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px;
+    justify-content: center;
+    transition: all 0.5s ease 0s;
+}
+
+input.contact-submit[type="submit"]:hover {
+    transform: scale(1.1);
+    background-color: rgb(248, 72, 160);
+    -webkit-box-shadow: 0px 10px 20px #888888;
+    box-shadow: 0px 10px 20px #888888;
+}
+
+/* ----- The footer ----- */
+footer {
+    text-align: center;
+    padding: 16px;
+    margin: 16px;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 50px;
+    width: 20px;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.fa:hover {
+    opacity: 7;
+    background-color: rgb(245, 87, 166);
+}
+
+.socialmedia h4 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.copyright {
+    font-size: 15px;
+    font-weight: 100;
+}
