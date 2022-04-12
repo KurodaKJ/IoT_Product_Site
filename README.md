@@ -2,5 +2,5 @@
 iotproduct folder is a main website folder
 contactform folder is a mysql database folder
 
-*Note 
+*Note* 
 Put in the correct folder
