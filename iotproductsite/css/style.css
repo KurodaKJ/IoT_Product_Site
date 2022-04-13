@@ -167,7 +167,18 @@ nav {
 
 /* ----- For calculator page ----- */
 
+.calculation-section {
+    text-align: center;
+    margin: auto 400px;
+}
 
+.calculation-section input {
+    border-radius: 5px;
+}
+
+.calculation-section select {
+    margin: 16px auto;
+}
 
 /* ----- For contact page ----- */
 
